@@ -1,4 +1,5 @@
 //these are all types of prototypes and methods of strings 
+// refer MDN docs for string
 
 prototype>: String { "" }
 anchor: function anchor()
