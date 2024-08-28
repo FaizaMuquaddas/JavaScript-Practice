@@ -56,11 +56,37 @@ const users = [
 ] //if we recieve users suppose from database we will recive in from of array of objects
 
 users[1].email
-console.log(Youtube_User);
+// console.log(Youtube_User);
 
-console.log(Object.keys(Youtube_User)); //datatype of output value
-console.log(Object.values(Youtube_User));
-console.log(Object.entries(Youtube_User));
+// console.log(Object.keys(Youtube_User)); //datatype of output value
+// console.log(Object.values(Youtube_User));
+// console.log(Object.entries(Youtube_User));
 
-console.log(Youtube_User.hasOwnProperty('isSubscriber'));
+// console.log(Youtube_User.hasOwnProperty('isSubscriber'));
 
+
+//structure, destructure
+const flat = {
+    rooms:"2",
+    rent: "20000",
+    areaName: "abul fazal"
+}
+
+const {areaName: area} = flat  //we can shorten name areaName: area
+console.log(area);
+
+
+//JSON
+
+// API in form of object
+
+// {
+//     "name": "Faiza"
+//     "profession": "Software devloper"
+//     "gender": "Female"
+// }
+
+// array format API
+// [
+// 
+// ]
