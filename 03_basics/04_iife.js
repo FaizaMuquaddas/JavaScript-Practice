@@ -16,3 +16,14 @@
     console.log(`DB CONNECTED TWO ${name}`);
 } )('Faiza')
 
+
+
+
+
+
+
+// Avoid Global Variable Pollution: By creating a local scope, IIFEs help prevent variables from leaking into the global scope, reducing the risk of conflicts with other code.
+
+// Module Pattern: IIFEs can be used to create private variables and methods, simulating the concept of private scope in JavaScript.
+
+// Initialization: They are often used for initialization tasks that need to be executed only once, like setting up event listeners or configuration.
