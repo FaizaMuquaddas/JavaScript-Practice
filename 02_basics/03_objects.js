@@ -34,15 +34,17 @@ console.log(JsUser["name"])
 // // console.log(typeof example["mySym"]); //type String but we wanted Symbol?????
 // console.log();
 
+// -------------------------------------------------------------------------------------------------------------------
+// const Id = Symbol("key1")                                                                                         |
+// const example  = {                                                                                                |
+//     [Id]: "myKey1"                                                                                                |
+// }                                                                                                                 |
+//                                                                                                                   |
+// console.log(typeof example[Id]);  //typeof Id ->"symbol"                                                          |
+//                                   //typeof example[Id] -> "string" (since the value stored is "myKey1")           |
+//                                                                                                                   |
+// -------------------------------------------------------------------------------------------------------------------
 
-// const Id = Symbol("key1")
-
-// const example  = {
-//     [Id]: "myKey1"
-// }
-
-// console.log(typeof example[Id]);  //typeof Id ->"symbol"
-//                                   //typeof example[Id] -> "string" (since the value stored is "myKey1")
 
 JsUser.email = "faiza.ac@gmail.in"  //override value
 console.log(JsUser);
