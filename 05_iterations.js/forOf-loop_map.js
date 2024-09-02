@@ -1,4 +1,4 @@
-// for of loop
+// for-of loop
 
 //we can get values from objects in these types of loops
 // ["", "", ""]
