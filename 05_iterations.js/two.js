@@ -13,7 +13,7 @@ while(arr < myarr.length){
     arr++
 }
 
-// DO WHILE
+// DO WHILE: works atleast one time
 
 let score = 10
 do{
