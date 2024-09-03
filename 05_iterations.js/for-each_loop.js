@@ -1,4 +1,5 @@
-// useful for iterating arrays
+// useful for iterating arrays, 
+// most useful in database- we can access easily array, any value from it and inject easily from webpage or something   
 
 const coding = ["js", "Java", "C", "cpp", "Rust", "Python"]
 

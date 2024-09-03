@@ -1,1 +1,1 @@
-    // console.log(`${key} is ${myObject[key]}`);
+coding.forEach(printme)
