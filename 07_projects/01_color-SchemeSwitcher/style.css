@@ -1,11 +1,11 @@
-* {
+*{
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    font-family: system-ui, sans-serif;
-    color: black;
+    font-family: sans-serif;
+    color: rgb(33, 33, 33);
     background-color: white;
 }
 
@@ -45,27 +45,15 @@ h1 {
     font-size: 1.5rem;
 }
 
-.projects {
-    display: flex;
-    flex-direction: column;
-}
-
-.project-link {
-    background-color: #fff;
-    padding: 10px 30px;
-    border-radius: 8px;
-    color: #212121;
-    text-decoration: none;
-    border: 2px solid #212121;
-    margin-top: 5px;
-}
 
 html {
     margin: 0;
 }
+
 span {
     display: block;
 }
+
 .canvas {
     margin: 100px auto 100px;
     width: 80%;
@@ -75,22 +63,25 @@ span {
 .button {
     width: 100px;
     height: 100px;
-    border: solid black 2px;
+    border: solid rgb(0, 0, 0) 1px;
     display: inline-block;
+    cursor: pointer;
 }
 
-#grey {
-    background: grey;
-}
-
-#white {
-    background: white;
-}
 #blue {
-    background: blue;
+    background: rgb(134, 128, 255);
 }
+
+#purple {
+    background: rgb(216, 143, 243);
+}
+
+#green {
+    background: rgb(125, 246, 145);
+}
+
 #yellow {
-    background: yellow;
+    background: rgb(254, 254, 131);
 }
 
 
